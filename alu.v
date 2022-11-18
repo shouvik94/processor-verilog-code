@@ -2,7 +2,7 @@ module alu #(parameter W=8,MEM_SIZE=8)(
     input   [3:0]     opcode,
     input  [W-1:0]   operand_A,
     input  [W-1:0]   operand_B,
-    input  [MEM_SIZE-1:0]  memory_address,
+    //input  [MEM_SIZE-1:0]  memory_address,
     output reg  [W-1:0] result,
     output      [0:2]   flag           //sign,zero,carry         
     );
